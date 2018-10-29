@@ -114,7 +114,7 @@ namespace gcn
     {
         hgeInputEvent ie;
 
-        while (mHGE->Input_GetEvent(&ie)
+        while (mHGE->Input_GetEvent(&ie))
             pollKeyInput(ie);
 
         pollMouseInput();
